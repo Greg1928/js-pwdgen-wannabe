@@ -8,3 +8,18 @@ const password = nameP + surname + color + 21;
 
 /* output */
 console.log(password);
+document.getElementById("name").innerHTML = nameP;
+document.getElementById("surname").innerHTML = surname;
+document.getElementById("color").innerHTML = color;
+document.getElementById("passwordP").innerHTML = password;
+
+
+function myFunction() {
+        var checkBox = document.getElementById("myCheck");
+        var text = document.getElementById("passwordP");
+        if (checkBox.checked == true){
+          text.style.display = "block";
+        } else {
+           text.style.display = "none";
+        }
+}
