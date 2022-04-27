@@ -7,7 +7,6 @@ const color = (prompt("enter your favourite color"));
 const password = nameP + surname + color + 21;
 
 /* output */
-console.log(password);
 document.getElementById("name").innerHTML = nameP;
 document.getElementById("surname").innerHTML = surname;
 document.getElementById("color").innerHTML = color;
